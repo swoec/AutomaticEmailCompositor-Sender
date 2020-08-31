@@ -106,7 +106,7 @@ def sendMails():
                 # msg.attach(part)
                 receiver = item['email']
                
-                random.random()
+                
 
                 time.sleep(13*random.random())
                 s.sendmail(me, receiver, msg.as_string())
